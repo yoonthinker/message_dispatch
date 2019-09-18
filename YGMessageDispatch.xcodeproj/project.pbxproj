@@ -13,6 +13,10 @@
 		168266EE23320C84008B9973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168266ED23320C84008B9973 /* Assets.xcassets */; };
 		168266F123320C84008B9973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168266EF23320C84008B9973 /* LaunchScreen.storyboard */; };
 		168266F423320C84008B9973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168266F323320C84008B9973 /* main.m */; };
+		168267142332217B008B9973 /* YGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 168267132332217B008B9973 /* YGMessage.m */; };
+		1682671623322194008B9973 /* msg.json in Resources */ = {isa = PBXBuildFile; fileRef = 1682671523322194008B9973 /* msg.json */; };
+		1682671B233221BA008B9973 /* YGMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1682671A233221BA008B9973 /* YGMessageCenter.m */; };
+		1682671E233221D3008B9973 /* YGMessageMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1682671D233221D3008B9973 /* YGMessageMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		168266F023320C84008B9973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		168266F223320C84008B9973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168266F323320C84008B9973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168267122332217B008B9973 /* YGMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessage.h; sourceTree = "<group>"; };
+		168267132332217B008B9973 /* YGMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessage.m; sourceTree = "<group>"; };
+		1682671523322194008B9973 /* msg.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = msg.json; sourceTree = "<group>"; };
+		16826719233221BA008B9973 /* YGMessageCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessageCenter.h; sourceTree = "<group>"; };
+		1682671A233221BA008B9973 /* YGMessageCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageCenter.m; sourceTree = "<group>"; };
+		1682671C233221D3008B9973 /* YGMessageMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMessageMonitor.h; sourceTree = "<group>"; };
+		1682671D233221D3008B9973 /* YGMessageMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMessageMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		168266E323320C82008B9973 /* YGMessageDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				1682671123322164008B9973 /* YGMessage */,
 				168266E423320C82008B9973 /* AppDelegate.h */,
 				168266E523320C82008B9973 /* AppDelegate.m */,
 				168266E723320C82008B9973 /* ViewController.h */,
@@ -69,6 +81,20 @@
 				168266F323320C84008B9973 /* main.m */,
 			);
 			path = YGMessageDispatch;
+			sourceTree = "<group>";
+		};
+		1682671123322164008B9973 /* YGMessage */ = {
+			isa = PBXGroup;
+			children = (
+				168267122332217B008B9973 /* YGMessage.h */,
+				168267132332217B008B9973 /* YGMessage.m */,
+				1682671523322194008B9973 /* msg.json */,
+				16826719233221BA008B9973 /* YGMessageCenter.h */,
+				1682671A233221BA008B9973 /* YGMessageCenter.m */,
+				1682671C233221D3008B9973 /* YGMessageMonitor.h */,
+				1682671D233221D3008B9973 /* YGMessageMonitor.m */,
+			);
+			path = YGMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +157,7 @@
 				168266F123320C84008B9973 /* LaunchScreen.storyboard in Resources */,
 				168266EE23320C84008B9973 /* Assets.xcassets in Resources */,
 				168266EC23320C82008B9973 /* Main.storyboard in Resources */,
+				1682671623322194008B9973 /* msg.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +171,9 @@
 				168266E923320C82008B9973 /* ViewController.m in Sources */,
 				168266F423320C84008B9973 /* main.m in Sources */,
 				168266E623320C82008B9973 /* AppDelegate.m in Sources */,
+				1682671B233221BA008B9973 /* YGMessageCenter.m in Sources */,
+				1682671E233221D3008B9973 /* YGMessageMonitor.m in Sources */,
+				168267142332217B008B9973 /* YGMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,48 @@
+{
+    "msg_body": {
+        "timestamp": 172831819,
+        "type": "new_order",
+        "title": "消息派发",
+        "sub_title": "",
+        "content": "资本主义果然有值得学习的地方",
+        "fmt_date": "07-22 18:22",
+        "display": "",
+        "extra": {
+            "person": {
+                "name": "老张",
+                "gender": "男",
+                "company": {
+                    "name": "江南七侠食品加工厂",
+                    "address": "花果山水帘洞",
+                    "establishment": "公元201年10月1日"
+                },
+                "hometown": "芭提雅"
+            },
+            "nest": {
+                "person": {
+                    "name": "老张",
+                    "gender": "男",
+                    "company": {
+                        "name": "江南七侠食品加工厂",
+                        "address": "花果山水帘洞",
+                        "establishment": "公元201年10月1日",
+                        "nest": {
+                            "person": {
+                                "name": "老张",
+                                "gender": "男",
+                                "company": {
+                                    "name": "江南七侠食品加工厂",
+                                    "address": "花果山水帘洞",
+                                    "establishment": "公元201年10月1日"
+                                },
+                                "hometown": "芭提雅"
+                            }
+                        }
+                    },
+                    "hometown": "芭提雅"
+                }
+            }
+        }
+    },
+    "msg_id": "ygcx_00544"
+}
